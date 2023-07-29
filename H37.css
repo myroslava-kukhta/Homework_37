@@ -1,0 +1,90 @@
+.wrapper {
+  background-color: goldenrod;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+li {
+  background-color: rgb(233, 233, 10);
+  width: 250px;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+li:active {
+  color: red;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+#products {
+  visibility: hidden;
+}
+
+#description {
+  background-color: rgb(28, 196, 243);
+  border: 1px solid #000;
+  visibility: hidden;
+  text-align: center;
+  width: 40vh;
+}
+
+#buy-button {
+  visibility: hidden;
+}
+
+#message {
+  visibility: hidden;
+}
+
+label:not(.radio) {
+  display: inline-block;
+  width: 300px;
+  margin-top: 20px;
+}
+
+legend {
+  margin-top: 20px;
+}
+
+.form {
+  background-color: beige;
+  display: none;
+  padding: 10px;
+  border: 1px solid #000;
+  width: 25vw;
+}
+
+.message {
+  visibility: hidden;
+  color: red;
+}
+
+.info {
+  padding: 5px;
+  margin: 1.25em 0 1.25em 0;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.infoOrder {
+  background-color: rgb(16, 223, 95);
+}

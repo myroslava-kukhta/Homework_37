@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product list</title>
+  <link rel="stylesheet" href="H37.css">
+</head>
+<body>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div style="text-align: center">
+          <ul id="categories">
+            <li data-category-id="1">Іграшки</li>
+            <li data-category-id="2">Аксесуари</li>
+            <li data-category-id="3">Корми</li>
+          </ul>
+          <button class="my_orders">Мої замовлення</button>
+        </div>
+        <ul id="products">
+          <li data-product-id="1"></li>
+          <li data-product-id="2"></li>
+          <li data-product-id="3"></li>
+
+        </ul>
+        <div class="info">
+          <div id="description">
+          </div>
+          <button id="buy-button">Buy</button>
+
+          <div class="form">
+            <select name="cities" id="cities-slect">
+              <option value="">-Виберіть місто-</option>
+              <option value="Київ">Київ</option>
+              <option value="Івано-Франківськ">Івано-Франківськ</option>
+              <option value="Тернопіль">Тернопіль</option>
+              <option value="Львів">Львів</option>
+            </select>
+            <label for="userName"
+              >ПІБ <input type="text" name="userName"
+            /></label>
+            <label for="storage"
+              >Склад Нової пошти <input type="number" name="storage"
+            /></label>
+            <label for="count"
+              >Кількість товару <input type="number" name="count"
+            /></label>
+            <fildset>
+              <legend>Оберіть спосіб оплати</legend>
+              <label for="payment" class="radio"
+                >післяплата<input type="radio" name="payment" checked
+              /></label>
+              <label for="payment" class="radio"
+                > банківська карта<input type="radio" name="payment" id=""
+              /></label>
+            </fildset>
+            <button class="continueBtn">Оформити замовлення</button>
+          </div>
+          <div class="message">
+            Заповність усі поля!
+          </div>
+          <div class="infoOrder"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./task_31.js"></script>
+  </body>
+</html>
+<script type="module" src="./H37.js"></script>
+</body>
+</html>
+
